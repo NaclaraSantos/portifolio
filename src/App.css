@@ -33,6 +33,7 @@ section {
   margin-top: 50px;
   display: flex;
 }
+
 .apresentacao{
   padding: 45px;
   max-width: 600px;
@@ -128,7 +129,14 @@ footer{
 }
 
 .carousel-item a:hover {
-  color: #800080; /* Altera a cor ao passar o mouse */
+  color: #fff; /* Altera a cor ao passar o mouse */
+}
+.button-project{
+padding:8px;
+margin: 15px;
+border-radius: 8px;
+background-color: rgba(45, 39, 35, 0.313);
+border-color: black;
 }
 
 @keyframes App-logo-spin {

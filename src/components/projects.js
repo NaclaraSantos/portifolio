@@ -7,30 +7,73 @@ function Projects() {
             <h2>Projetos</h2>
             <div className="carousel">
   <div className="carousel-item">
-    <img src="projeto1.jpg" alt="Projeto 1" />
-    <a href="https://naclarasantos.github.io/calculadora-imc/" target="_blank">Calculadora-IMC</a>
+
+  <p className='title-project'>Gestão Smart</p>
+  <img
+  src={`${process.env.PUBLIC_URL}/projeto1.png`} // Ajuste o caminho se necessário
+  alt="Ana Clara"                 
+   />
+   <button className='button-project'>
+    <a href="https://naclarasantos.github.io/GestaoSmart/" target="_blank">Ver projeto</a>
+    </button>
   </div>
+
   <div className="carousel-item">
-    <img src="projeto2.jpg" alt="Projeto 2" />
-    <a href="https://naclarasantos.github.io/The-Boys/" target="_blank">The Boys</a>
+  <p className='title-project'>Finanças</p>
+  <img
+  src={`${process.env.PUBLIC_URL}/projeto2.png`} // Ajuste o caminho se necessário
+  alt="Ana Clara"                 
+   />
+   <button className='button-project'>
+    <a href="https://naclarasantos.github.io/Financas/" target="_blank">Ver projeto</a>
+    </button>
   </div>
+
   <div className="carousel-item">
-    <img src="projeto3.jpg" alt="Projeto 3" />
-    <a href="https://naclarasantos.github.io/Nike-Imports/" target="_blank">Nike Imports</a>
+  <p className='title-project'>Controle financeiro</p>
+  <img
+  src={`${process.env.PUBLIC_URL}/projeto3.png`} // Ajuste o caminho se necessário
+  alt="Ana Clara"                 
+   />
+   <button className='button-project'>
+    <a href="https://naclarasantos.github.io/ControleFinanceiro/" target="_blank">Ver projeto</a>
+    </button>
   </div>
+
   <div className="carousel-item">
-    <img src="projeto4.jpg" alt="Projeto 4" />
-    <a href="https://naclarasantos.github.io/Jornada-Tech/" target="_blank">Jornada Tech</a>
+   <p className='title-project'>Calculadora-IMC</p>
+  <img
+  src={`${process.env.PUBLIC_URL}/projeto4.png`} // Ajuste o caminho se necessário
+  alt="Ana Clara"                 
+   />
+   <button className='button-project'>
+    <a href=" https://naclarasantos.github.io/calculadora-imc/" target="_blank">Ver projeto</a>
+    </button>
   </div>
+
   <div className="carousel-item">
-    <img src="projeto5.jpg" alt="Projeto 5" />
-    <a href="https://naclarasantos.github.io/Gerador-de-senhas/" target="_blank">Gerador de Senhas</a>
+ <p className='title-project'>Relógio Digital</p>
+  <img
+  src={`${process.env.PUBLIC_URL}/projeto5.png`} // Ajuste o caminho se necessário
+  alt="Ana Clara"                 
+   />
+    <button className='button-project'>
+    <a href="https://naclarasantos.github.io/Rel-gio_Digital/" target="_blank">Ver projeto</a>
+    </button>
   </div>
+
   <div className="carousel-item">
-    <img src="projeto6.jpg" alt="Projeto 6" />
-    <a href="https://naclarasantos.github.io/Rel-gio_Digital/" target="_blank">Relógio Digital</a>
+  <p className='title-project'>Jornada Tech</p>
+  <img
+  src={`${process.env.PUBLIC_URL}/projeto6.png`} // Ajuste o caminho se necessário
+  alt="Ana Clara"                 
+   />
+    <button className='button-project'>
+    <a href="https://naclarasantos.github.io/Jornada-Tech/" target="_blank">Ver projeto</a>
+    </button>
   </div>
 </div>
+
 
 
 
